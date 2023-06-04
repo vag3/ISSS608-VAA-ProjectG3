@@ -50,7 +50,7 @@ Our tasks are to assist FishEye in developing a new visual analytics approach to
 
 -   There is a need to find the correlations of different dimensions such as `country`, `products_services` and `revenue_omu` and see if there are any prevalent patterns. There is lack of context to the data upfront, and we would have to make logical assumptions in our analysis.
 
--   There is a need to differentiate the type of roles that each source and target, in order to identify the relationships between the different companies. 
+-   There is a need to differentiate the type of roles of each source and target, in order to identify the relationships between the different companies. 
 
 <!-- -->
 
