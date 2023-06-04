@@ -10,7 +10,7 @@ website:
     - text: "About"
       href: "about.html"
     - text: "Proposal"
-      href: "Proposal.html"
+      href: "Group3_Proposal.html"
 
 format:
   html:
@@ -19,6 +19,7 @@ format:
     toc: true
 
 editor: visual
+
 
 execute: 
   echo: true

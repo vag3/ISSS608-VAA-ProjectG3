@@ -2,6 +2,6 @@
 title: "CyberFish"
 ---
 
-Welcome to **ISSS608 Visual Analytics and Applications**. This website will showcase Project Team 3's coursework on **Vast Challenge 2023**.
+Welcome to **ISSS608 Visual Analytics and Applications**. This website will showcase Project Group 3's coursework on **Vast Challenge 2023**.
 
 We name our Project "CyberFish".

@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Group 3 (Chan Hin Phung, Liang Sze Leong, Ong Chae Hui)">
+<meta name="dcterms.date" content="2023-06-03">
 
-<title>ISSS608-VAA-ProjectG3 - CyberFish</title>
+<title>ISSS608-VAA-ProjectG3 - Proposal - CyberFish</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -80,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">
+    <a class="nav-link" href="./index.html">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -88,7 +90,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Group3_Proposal.html">
+    <a class="nav-link active" href="./Group3_Proposal.html" aria-current="page">
  <span class="menu-text">Proposal</span></a>
   </li>  
 </ul>
@@ -102,32 +104,123 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">1. Overview</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">2. Introduction</a></li>
+  <li><a href="#project-objectives" id="toc-project-objectives" class="nav-link" data-scroll-target="#project-objectives">3. Project Objectives</a></li>
+  <li><a href="#motivation-behind-the-tasks" id="toc-motivation-behind-the-tasks" class="nav-link" data-scroll-target="#motivation-behind-the-tasks">4. Motivation Behind the Tasks</a></li>
+  <li><a href="#potential-issues-challenges" id="toc-potential-issues-challenges" class="nav-link" data-scroll-target="#potential-issues-challenges">5. Potential Issues &amp; Challenges</a></li>
+  <li><a href="#relevant-work-and-proposed-approach" id="toc-relevant-work-and-proposed-approach" class="nav-link" data-scroll-target="#relevant-work-and-proposed-approach">6. Relevant Work and Proposed Approach</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">CyberFish</h1>
+<h1 class="title">Proposal - CyberFish</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Group 3 (Chan Hin Phung, Liang Sze Leong, Ong Chae Hui) </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 3, 2023</p>
+    </div>
+  </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">June 4, 2023</p>
+    </div>
+  </div>
     
   </div>
   
 
 </header>
 
-<p>Welcome to <strong>ISSS608 Visual Analytics and Applications</strong>. This website will showcase Project Group 3’s coursework on <strong>Vast Challenge 2023</strong>.</p>
-<p>We name our Project “CyberFish”.</p>
+<section id="overview" class="level1">
+<h1>1. Overview</h1>
+<p>This proposal is to make use of Visual Analytics to understand patterns of groups in the knowledge graph and highlight anomalous groups for VAST Challenge 2023 (Mini-Challenge 3).</p>
+</section>
+<section id="introduction" class="level1">
+<h1>2. Introduction</h1>
+<p>FishEye International is a non-profit organisation which focuses on countering illegal, unreported, and unregulated (IUU) fishing. They had believed that companies with anomalous structures are far more likely to be involved in IUU. After obtaining access to an international database on fishing related companies including information about companies, owners, workers, and financial status, FishEye is aiming to use this graph to identify anomalies that could indicate a company is involved in IUU.</p>
+</section>
+<section id="project-objectives" class="level1">
+<h1>3. Project Objectives</h1>
+<p>For our project, we aim to achieve the following objectives:</p>
+<ol type="1">
+<li><p>understand patterns of groups in the knowledge graph and highlight anomalous groups;</p></li>
+<li><p>identify anomalies in the business groups present in the knowledge graph;</p></li>
+<li><p>develop a visual analytics process to find similar businesses and group them based on important features identified;</p></li>
+<li><p>measure similarity of the grouped businesses; and</p></li>
+<li><p>Present the case on whether anomalous companies are involved in illegal fishing, and highlight business groups that require further investigations.</p></li>
+</ol>
+</section>
+<section id="motivation-behind-the-tasks" class="level1">
+<h1>4. Motivation Behind the Tasks</h1>
+<p>Our tasks are to assist FishEye in developing a new visual analytics approach to better understand fishing business anomalies. By accurately detecting and understanding anomalies, such as illegal or overfishing activities, the visual analytics approach can contribute to more effective fisheries management. This, in turn, promotes sustainable fishing practices, helps preserve marine ecosystems, and ensures the long-term viability of fish populations.</p>
+</section>
+<section id="potential-issues-challenges" class="level1">
+<h1>5. Potential Issues &amp; Challenges</h1>
+<ul>
+<li><p>It will be challenging to work on the voluminous data given there are 27,622 nodes and 24,038 edges.</p></li>
+<li><p>The column <code>product_services</code> consists of a wide variety of products and services from different industries. Currently, there is no guidance on the relationship between each products/services and we would need to establish the relevance of the different products/services related to fishing activities and to filter the values accordingly.</p></li>
+<li><p>There is a need to find the correlations of different dimensions such as <code>country</code>, <code>products_services</code> and <code>revenue_omu</code> and see if there are any prevalent patterns. There is lack of context to the data upfront, and we would have to make logical assumptions in our analysis.</p></li>
+<li><p>There is a need to differentiate the type of roles that each source and target, in order to identify the relationships between the different companies.&nbsp;</p></li>
+</ul>
+<!-- -->
+<ul>
+<li>There are data with <code>character(0)</code>, <code>unknown</code> or <code>NA</code> values that would need to be handled in order to make the data analysis more accurate and meaningful.&nbsp;</li>
+</ul>
+</section>
+<section id="relevant-work-and-proposed-approach" class="level1">
+<h1>6. Relevant Work and Proposed Approach</h1>
+<p>We will adopt the following methodology:</p>
+<ol type="1">
+<li><p>The group will meet up and brainstorm on the scope of the project as well as the deliverables that are relevant that can be mapped to meet our project objectives.</p></li>
+<li><p>Data preparation will be carried out using data cleaning techniques to check for missing values, duplicates and inconsistencies in the data format and categorisation, as well as data transformation to mutate and derive suitable data variables for our analysis.</p></li>
+<li><p>Carry out data exploration:</p>
+<ul>
+<li><p>Identifying fishing-related products and services:</p></li>
+<li><p>Identifying Outliers: Focus on outliers or data points that deviate significantly from the expected patterns. Outliers in the relationships between country, products/services, and revenues could indicate irregularities or anomalies in the fishing business. These outliers may help pinpoint areas that require further investigation.</p></li>
+</ul></li>
+<li><p>Build relevant visual network models to illustrate the characteristics of the business entities through the computation of centrality metrics. Establish connections or edges between entities based on their interactions, collaborations, or dependencies. We can consider the following centrality metrices:</p>
+<ul>
+<li><p>Betweenness Centrality: Identifies entities that act as bridges or intermediaries between other entities within the network.</p></li>
+<li><p>Eigenvector Centrality: Considers both the number and importance of the entities connected to a particular business entity.</p></li>
+<li><p>Community detection: Explore the potential grouping of entities based on their potential of forming communities.</p></li>
+</ul></li>
+<li><p>With the results of the visualisation plots, analyse and reveal the connectivity (relationship) between the business entities, and to identify abnormalities within the network. The following are some of the proposed areas of our focus.</p>
+<ul>
+<li><p>Network analysis on the top x revenue-generating companies to explore the extensiveness of their network reach of these companies.</p>
+<p><img src="images/Picture1.png" class="img-fluid"></p></li>
+<li><p>Network analysis on business owners owning more than x companies to identify individuals with diversity of business ventures.</p>
+<p><img src="images/Picture2.png" class="img-fluid"></p></li>
+<li><p>Network analysis on company-to-company relationships to help us identify possible abnormalities based on the nature of the target nodes that the source nodes are linked to. The “source’ companies can be determined based on relevancy of their business nature (e.g.&nbsp;fishing-related) using keyword search.</p>
+<p><img src="images/Picture3.png" class="img-fluid"></p></li>
+</ul></li>
+</ol>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
