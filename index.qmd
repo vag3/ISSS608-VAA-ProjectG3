@@ -1,11 +1,7 @@
 ---
-title: "ISSS608-VAA-ProjectG3"
+title: "CyberFish"
 ---
 
-This is a Quarto website.
+Welcome to **ISSS608 Visual Analytics and Applications**. This website will showcase Project Team 3's coursework on **Vast Challenge 2023**.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+We name our Project "CyberFish".

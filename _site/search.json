@@ -2,15 +2,22 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "VAST Challenge 2023",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Seafood is one of the most widely traded commodities in the global food market. More than a third of the world’s population relies on fish and other seafood as a primary source of protein in their diet, and an estimated 520 million people make their livelihoods through fishing or fishing-related activities.\nUnfortunately, illegal, unreported, and unregulated fishing is a major contributor to overfishing worldwide. These activities pose a threat not only to fragile marine ecosystems, but also to food security in coastal communities and regional stability more broadly. The illegal fishing trade has been linked to organized crime, and human rights violations are common when fishing operations are conducted without regulatory oversight.\nNGO FishEye International is a nonpartisan organization charged with understanding the social, political, and economic forces that drive the illegal fishing trade. They have spent the past several years collecting data, which they hope will help them to form a more comprehensive picture of this evolving threat… but they need your help!\nIn mid-April, FishEye International plans to make several of their datasets available to the public, along with a series of questions surrounding illegal fishing and its broader impacts. They’re asking the Visual Analytics community to help them make sense of this often-conflicting data, and to make recommendations for how to proceed.\nThe Group is working on Mini Challenge 3."
+  },
+  {
+    "objectID": "about.html#mini-challenge-3-detect-anomalies",
+    "href": "about.html#mini-challenge-3-detect-anomalies",
+    "title": "VAST Challenge 2023",
+    "section": "Mini-Challenge 3: Detect Anomalies",
+    "text": "Mini-Challenge 3: Detect Anomalies\n\nMotivation\nFishEye International, a non-profit focused on countering illegal, unreported, and unregulated (IUU) fishing, has been given access to an international finance corporation’s database on fishing related companies. In the past, FishEye has determined that companies with anomalous structures are far more likely to be involved in IUU (or other “fishy” business). FishEye has transformed the database into a knowledge graph. It includes information about companies, owners, workers, and financial status. FishEye analysts have attempted to use traditional node-link visualizations and standard graph analyses, but these were found to be ineffective because the scale and detail in the data can obscure a business’s true structure.\n\n\nObjective\nWe aim to help FishEye develop a new visual analytics approach to better understand fishing business anomalies and identify anomalies that could indicate a company is involved in IUU using this graph.\n\n\nTasks\nBelow are the tasks that the group is working on:\nUse visual analytics to understand patterns of groups in the knowledge graph and highlight anomalous groups.\nUse visual analytics to identify anomalies in the business groups present in the knowledge graph. Limit your response to 400 words and 5 images.\nDevelop a visual analytics process to find similar businesses and group them. This analysis should focus on a business’s most important features and present those features clearly to the user. Limit your response to 400 words and 5 images.\nMeasure similarity of businesses that you group in the previous question. Express confidence in your groupings visually. Limit your response to 400 words and 4 images.\nBased on your visualizations, provide evidence for or against the case that anomalous companies are involved in illegal fishing. Which business groups should FishEye investigate further? Limit your response to 600 words and 6 images.\nReflection: What was the most difficult aspect of working with this knowledge graph? Did you have the tools and resources you needed to complete the challenge? What additional resources would have helped you? Limit your response to 300 words"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "ISSS608-VAA-ProjectG3",
+    "title": "CyberFish",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Welcome to ISSS608 Visual Analytics and Applications. This website will showcase Project Team 3’s coursework on Vast Challenge 2023.\nWe name our Project “CyberFish”."
   }
 ]

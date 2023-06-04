@@ -5,9 +5,12 @@ website:
   title: "ISSS608-VAA-ProjectG3"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    - text: "Home"
+      href: "index.html"
+    - text: "About"
+      href: "about.html"
+    - text: "Proposal"
+      href: "Proposal.html"
 
 format:
   html:
@@ -17,3 +20,7 @@ format:
 
 editor: visual
 
+execute: 
+  echo: true
+  eval: true
+  warning: false
